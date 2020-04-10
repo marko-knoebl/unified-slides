@@ -1,0 +1,28 @@
+{
+  "name": "@karuga/unified-slides",
+  "description": "create HTML presentations from markdown sources (based on reveal.js)",
+  "version": "0.1.0",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "unified-slides": "cli.js"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  },
+  "dependencies": {
+    "@karuga/rehype-slides": "^4.0.0",
+    "@karuga/remark-include": "^0.4.3",
+    "markdown-extensions": "^1.1.1",
+    "rehype-highlight": "^4.0.0",
+    "rehype-inline": "^1.3.1",
+    "rehype-raw": "^4.0.2",
+    "rehype-stringify": "^7.0.0",
+    "remark-parse": "^8.0.0",
+    "remark-rehype": "^6.0.0",
+    "unified-args": "^8.0.0"
+  }
+}
